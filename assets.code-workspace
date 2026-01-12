@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../assets"
+		},
+		{
+			"path": "../css_scss"
+		},
+		{
+			"path": "../js"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../views"
+		}
+	]
+}
