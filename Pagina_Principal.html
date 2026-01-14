@@ -1,0 +1,91 @@
+<html>
+     <head>
+         <title>Página Principal</title>
+  <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+body{
+margin: 0;
+background-color:
+white; font-family:
+sans-serif; 
+} /* CABECERA */ 
+.cabeza{ background-color: black;
+color: white; text-align: center; 
+padding: 40px 10px; box-shadow: 3px 1px 3px grey; 
+} 
+.cabezap{ 
+font-size: 40px;
+letter-spacing: 3px;
+margin: 0;
+} /* MENÚ SUPERIOR */ 
+.buscadores{
+display: flex; 
+justify-content: flex-end; 
+align-items: center; gap: 15px; 
+padding: 10px 20px; 
+margin-top: -40px; 
+} .buscadores a{ 
+color: white; 
+text-decoration: none; 
+font-size: 14px; 
+} 
+.buscadores img{ 
+height: 40px; 
+border-radius: 20px; 
+} /* TÍTULO CENTRAL */ 
+.titulo-central{ 
+text-align: center; 
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+font-size: 70px; 
+text-shadow: 10px 1px 1px #FF0; 
+margin-top: 80px; letter-spacing: 10px; }
+/* SECCIÓN DE IMÁGENES */ .contenedor-imagenes{
+display: flex; 
+flex-direction: column; 
+gap: 40px; padding: 20px; 
+} 
+.fila{ 
+display: flex; 
+flex-wrap: wrap; 
+align-items: center; 
+justify-content: center; 
+gap: 20px; 
+} 
+.fila img{ 
+width: 250px; 
+max-width: 80%; 
+border: 3px solid rgb(255, 253, 106); 
+cursor: pointer; 
+}
+.texto{ 
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+text-align: center; 
+font-size: 18px; 
+} 
+/* RESPONSIVE */
+@media (max-width: 768px){ 
+.titulo-central{ font-size: 45px; letter-spacing: 5px; } .buscadores{ flex-direction: column; margin-top: 0; gap: 5px; } 
+.fila{ flex-direction: column; } .texto{ font-size: 16px; } 
+} 
+@media (max-width: 480px){
+.titulo-central{ font-size: 35px; } 
+} 
+</style>
+</head> 
+<body>
+<div class="cabeza"> 
+<p><b>SHOESCOOL<span style="font-size: 0.3em;">®</span></b></p> 
+</div> 
+<div class="buscadores"> <a href="Inicio_de_Sesion.html">Registrarse</a> <a href="Contacto_Ubicacion.html">Ubicación y Contacto</a> <a href="Historia_de_la_Web.html"> <img src="img/iconito.png" alt=""> </a> </div>
+<h4 class="titulo-central">¡CREA <br> TU <br> ESTILO!</h4> 
+<div class="contenedor-imagenes">
+<div class="fila"> <a href="#"> <img src="img/Gemini_Generated_Image_4gfc944gfc944gfc.png" alt=""> </a> 
+<div class="texto"> <i>"Este zapato fue creado por nuestro primer cliente, inspirado en las cebras, pues era un fanático de los animales y es el que le representa."</i> </div>
+</div> 
+<div class="fila"> <div class="texto"> "Ahora es tu turno de crear tu propio estilo con detalles y, lo más importante, tu imaginación. Aquí está tu propio lienzo →" 
+
+</div> <a href="Personalizacion_de_los_Zapatos.html"> <img src="img/Copilot_20260112_155707.png" alt=""> </a> </div>
+</div>
+</body>
+</html>
